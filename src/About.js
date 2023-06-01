@@ -1,7 +1,6 @@
 import React from 'react'
 import Fab from '@mui/material/Fab';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import OfflineBoltIcon from '@mui/icons-material/OfflineBolt';
 import { Link } from "react-router-dom";
 import Paper from '@mui/material/Paper';
 import Abhimanyu_Warrier from './Abhimanyu_Warrier.jpg'
@@ -18,7 +17,7 @@ const About = (props) => {
       </div>
       <div className='flex mt-[5vh] h-[40vh] justify-center'>
         <Paper  elevation={3} className='h-[65vh] w-[60vw] flex items-center justify-around'>
-          <img className='h-[50vh] rounded-xl shadow-md' src={Abhimanyu_Warrier}/>
+          <img alt='img' className='h-[50vh] rounded-xl shadow-md' src={Abhimanyu_Warrier}/>
           <div className='h-[50vh] w-[35vw] flex-col justify-around'>
             <h1 className='text-[2.7vh]'>Hey, I'm a passionate Computer Science student at UC Davis. I have lots of experience in fields of Computer Science including machine learning, AI, app dev, and web development which I gained through personal projects, internships, and research positions. Outside of academics, I like to play basketball, and many instruments including the Indian Carnatic Violin, Flute, Tenor Saxophone, and Bass Clarinet.
             </h1>
@@ -38,7 +37,7 @@ const About = (props) => {
       </div>
       <div className='flex mt-[5vh] h-[40vh] justify-center'>
         <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[65vh] w-[60vw] flex items-center justify-around'>
-          <img className='h-[50vh] rounded-xl shadow-md' src={Abhimanyu_Warrier}/>
+          <img alt='img' className='h-[50vh] rounded-xl shadow-md' src={Abhimanyu_Warrier}/>
           <div className='h-[50vh] w-[35vw] flex-col justify-around'>
             <h1 className='text-md text-slate-200'>Hey, I'm a passionate Computer Science student at UC Davis. I have lots of experience in fields of Computer Science including machine learning, AI, app dev, and web development which I gained through personal projects, internships, and research positions. Outside of academics, I like to play basketball, and many instruments including the Indian Carnatic Violin, Flute, Tenor Saxophone, and Bass Clarinet.
             </h1>

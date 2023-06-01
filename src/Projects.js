@@ -21,7 +21,7 @@ const Projects = (props) => {
       <div className='flex mt-[5vh] h-[40vh] justify-around'>
         <Paper  elevation={3} className='h-[67vh] w-[30vw] flex flex-col items-center'>
           <div className='h-[14vh] flex items-center pt-[2vh] gap-[1vw] bg-[#FFFAF3] p-2 w-[30vw] justify-center rounded-md shadow-md'>
-          <img className='h-[10vh] rounded-xl' src={dtdt}/>
+          <img alt='img' className='h-[10vh] rounded-xl' src={dtdt}/>
             <p className='font-sans text-[4vh] font-normal'>Davis Triceratops</p>
           </div>
           <div className='w-[27vw] h-[47vh] mt-[3vh] rounded-md shadow-md p-2 flex-col flex items-center'>
@@ -41,7 +41,7 @@ Notion Productivity Software, React.js, JavaScript, Cascading Style Sheets (CSS)
         </Paper>
         <Paper  elevation={3} className='h-[67vh] w-[30vw] flex flex-col items-center'>
         <div className='h-[14vh] flex items-center pt-[2vh] gap-[1vw] bg-[#FFFAF3] p-2 w-[30vw] justify-center rounded-md shadow-md'>
-          <img className='h-[8vh] rounded-xl' src='https://seeklogo.com/images/F/facebook-marketplace-logo-46A976DABC-seeklogo.com.png'/>
+          <img alt='img' className='h-[8vh] rounded-xl' src='https://seeklogo.com/images/F/facebook-marketplace-logo-46A976DABC-seeklogo.com.png'/>
             <p className='font-sans text-2xl font-normal'>College Marketplace</p>
           </div>
           <div className='w-[27vw] h-[47vh] mt-[3vh] rounded-md shadow-md p-2 flex-col flex items-center'>
@@ -59,7 +59,7 @@ Notion Productivity Software, React.js, JavaScript, Cascading Style Sheets (CSS)
         </Paper>
         <Paper  elevation={3} className='h-[67vh] w-[30vw] flex flex-col items-center'>
         <div className='h-[14vh] flex items-center pt-[2vh] gap-[1vw] bg-[#FFFAF3] p-2 w-[30vw] justify-center rounded-md shadow-md'>
-          <img className='h-[8vh] rounded-xl' src={LogoUC}/>
+          <img alt='img' className='h-[8vh] rounded-xl' src={LogoUC}/>
             <p className='font-sans text-2xl font-normal'>MyUC</p>
           </div>
           <div className='w-[27vw] h-[47vh] mt-[3vh] rounded-md shadow-md p-2 flex-col flex items-center'>
@@ -89,7 +89,7 @@ Notion Productivity Software, React.js, JavaScript, Cascading Style Sheets (CSS)
       <div className='flex mt-[5vh] h-[40vh] justify-around'>
         <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[67vh] w-[30vw] flex flex-col items-center'>
           <div className='h-[14vh] flex items-center pt-[2vh] gap-[1vw] bg-[#FFFAF3] p-2 w-[30vw] justify-center rounded-md shadow-md'>
-          <img className='h-[10vh] rounded-xl' src={dtdt}/>
+          <img alt='img' className='h-[10vh] rounded-xl' src={dtdt}/>
             <p className='font-sans text-[4vh] font-normal'>Davis Triceratops</p>
           </div>
           <div className='w-[27vw] h-[47vh] mt-[3vh] rounded-md shadow-md p-2 flex-col flex items-center'>
@@ -109,7 +109,7 @@ Notion Productivity Software, React.js, JavaScript, Cascading Style Sheets (CSS)
         </Paper>
         <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[67vh] w-[30vw] flex flex-col items-center'>
         <div className='h-[14vh] flex items-center pt-[2vh] gap-[1vw] bg-[#FFFAF3] p-2 w-[30vw] justify-center rounded-md shadow-md'>
-          <img className='h-[8vh] rounded-xl' src='https://seeklogo.com/images/F/facebook-marketplace-logo-46A976DABC-seeklogo.com.png'/>
+          <img alt='img' className='h-[8vh] rounded-xl' src='https://seeklogo.com/images/F/facebook-marketplace-logo-46A976DABC-seeklogo.com.png'/>
             <p className='font-sans text-2xl font-normal'>College Marketplace</p>
           </div>
           <div className='w-[27vw] h-[47vh] mt-[3vh] rounded-md shadow-md p-2 flex-col flex items-center'>
@@ -127,7 +127,7 @@ Notion Productivity Software, React.js, JavaScript, Cascading Style Sheets (CSS)
         </Paper>
         <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[67vh] w-[30vw] flex flex-col items-center'>
         <div className='h-[14vh] flex items-center pt-[2vh] gap-[1vw] bg-[#FFFAF3] p-2 w-[30vw] justify-center rounded-md shadow-md'>
-          <img className='h-[8vh] rounded-xl' src={LogoUC}/>
+          <img alt='img' className='h-[8vh] rounded-xl' src={LogoUC}/>
             <p className='font-sans text-2xl font-normal'>MyUC</p>
           </div>
           <div className='w-[27vw] h-[47vh] mt-[3vh] rounded-md shadow-md p-2 flex-col flex items-center'>

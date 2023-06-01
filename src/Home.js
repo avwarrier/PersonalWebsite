@@ -17,10 +17,10 @@ const Home = (props) => {
             <h1 className='font-sans text-[4.7vh] mx-auto text-black w-[32vw] font-medium'>Welcome to my website!</h1>
             <div className='mx-auto w-[32vw] mt-[2vh]'><h1 className=' text-slate-600'>Hi, my name is Abhimanyu Warrier and I am a first year computer science student at UC Davis!</h1><h1 className=' text-slate-600 font-light text-xs'>Made in React.js</h1></div>
             <div className='mx-auto w-[32vw] mt-[2vh]'>
-                <Link to="/about"><Button variant='contained' sx={{backgroundColor: "#083361", borderRadius: 5, height: "7vh", width: "9vw", textTransform: "none"}}>About Me</Button></Link>
+                <Link to="/about"><Button variant='contained' sx={{bgcolor: "#083361", borderRadius: 5, height: "7vh", width: "9vw", textTransform: "none"}}>About Me</Button></Link>
             </div>
         </Paper>
-        <img className=' h-[60vh] mt-[16vh]' src='https://i-tea.com.my/assets/template/com_template/images/slider/digital-solution.png?v=0.05'></img>
+        <img alt='img' className=' h-[60vh] mt-[16vh]' src='https://i-tea.com.my/assets/template/com_template/images/slider/digital-solution.png?v=0.05'></img>
         </div>
         <div className='flex h-[30vh] mt-[20vh] justify-center gap-[6vw]'>
             <Link to="/skills"><Paper elevation={3} sx={{height: "100%", width: "26vw", backgroundColor: "#7ba3b5"}} className='flex flex-col items-center hover:bg-[#266a99]'>
@@ -57,7 +57,7 @@ const Home = (props) => {
                 <Link to="/about"><Button variant='contained' sx={{backgroundColor: "#e6ca43", ":hover": {bgcolor: "#f5cd07"}, borderRadius: 5, height: "7vh", width: "9vw", textTransform: "none"}}>About Me</Button></Link>
             </div>
         </Paper>
-        <img className=' h-[60vh] mt-[16vh]' src='https://i-tea.com.my/assets/template/com_template/images/slider/digital-solution.png?v=0.05'></img>
+        <img alt='img' className=' h-[60vh] mt-[16vh]' src='https://i-tea.com.my/assets/template/com_template/images/slider/digital-solution.png?v=0.05'></img>
         </div>
         <div className='flex h-[30vh] mt-[20vh] justify-center gap-[6vw]'>
             <Link to="/skills"><Paper elevation={3} sx={{height: "100%", width: "26vw", backgroundColor: "#7ba3b5"}} className='flex flex-col items-center hover:bg-[#f2d755]'>
