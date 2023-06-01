@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './Home'
 import Skills from './Skills'
 import NavBar from './NavBar'
@@ -15,7 +15,7 @@ export default function App() {
   return (
     <>
     <NavBar darkMode={darkMode} setDarkMode={setDarkMode}/>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home darkMode={darkMode}/>}></Route>
         <Route path="/skills" element={<Skills darkMode={darkMode}/>}></Route>
@@ -23,7 +23,7 @@ export default function App() {
         <Route path="/experience" element={<Experience darkMode={darkMode}/>}></Route>
         <Route path="/about" element={<About darkMode={darkMode}/>}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }

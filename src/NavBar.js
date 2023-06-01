@@ -5,9 +5,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 import Brightness5Icon from '@mui/icons-material/Brightness5';
-import Fab from '@mui/material/Fab';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
   return (
@@ -22,9 +19,9 @@ const NavBar = (props) => {
         <IconButton onClick={() => props.setDarkMode(true)}><ModeNightIcon sx={{fontSize: 30, color: "#447fc7"}}/></IconButton> 
         
         <div className='w-[20vw] bg-blue-950 mr-[5vw] flex justify-around shadow-lg rounded-lg'>
-            <a href='https://www.instagram.com/_abhimanyuw_/' target='_blank'><IconButton ><InstagramIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
+            <a href='https://www.instagram.com/_abhimanyuw_/' target='_blank' ><IconButton ><InstagramIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
             <a href='http://www.linkedin.com/in/abhimanyu-warrier' target='_blank'><IconButton ><LinkedInIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
-            <a href='https://www.instagram.com/_abhimanyuw_/' target='_blank'><IconButton ><GitHubIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
+            <a href='https://github.com/avwarrier' target='_blank'><IconButton><GitHubIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
         </div>
         </div>
     </div>
@@ -38,7 +35,7 @@ const NavBar = (props) => {
         <div className='w-[20vw] bg-amber-400 mr-[5vw] flex justify-around shadow-lg rounded-lg'>
             <a href='https://www.instagram.com/_abhimanyuw_/' target='_blank'><IconButton ><InstagramIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
             <a href='http://www.linkedin.com/in/abhimanyu-warrier' target='_blank'><IconButton ><LinkedInIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
-            <a href='https://www.instagram.com/_abhimanyuw_/' target='_blank'><IconButton ><GitHubIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
+            <a href='https://github.com/avwarrier' target='_blank'><IconButton ><GitHubIcon sx={{ color: '#FFF', fontSize: 30 }}/></IconButton></a>
         </div>
         </div>
     </div>
