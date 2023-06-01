@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.d9c3ecdc.css",
+    "main.js": "/personal-website/static/js/main.d19cb1c9.js",
+    "static/media/Abhimanyu_Warrier.jpg": "/personal-website/static/media/Abhimanyu_Warrier.aea1ecb1d8ab08868ca0.jpg",
+    "static/media/LogoUC.PNG": "/personal-website/static/media/LogoUC.f6a3c3023c38f7ca560f.PNG",
+    "static/media/dtdt.jpg": "/personal-website/static/media/dtdt.4ca5a5fd3092e6e85013.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.d9c3ecdc.css.map": "/personal-website/static/css/main.d9c3ecdc.css.map",
+    "main.d19cb1c9.js.map": "/personal-website/static/js/main.d19cb1c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9c3ecdc.css",
+    "static/js/main.d19cb1c9.js"
+  ]
+}
