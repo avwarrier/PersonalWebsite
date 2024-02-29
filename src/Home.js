@@ -15,7 +15,7 @@ const Home = (props) => {
         <div className='h-[40vh] flex items-center justify-around'>
         <Paper sx={{backgroundColor: "#fff", borderRadius: 2}} elevation={3} className='mt-[16vh] ml-[5vw] h-[35vh] w-[40vw] p-[2vw] flex flex-col'>
             <h1 className='font-sans text-[4.7vh] mx-auto text-black w-[32vw] font-medium'>Welcome to my website!</h1>
-            <div className='mx-auto w-[32vw] mt-[2vh]'><h1 className=' text-slate-600'>Hi, my name is Abhimanyu Warrier and I am a first year computer science student at UC Davis!</h1><h1 className=' text-slate-600 font-light text-xs'>Made in React.js</h1></div>
+            <div className='mx-auto w-[32vw] mt-[2vh]'><h1 className=' text-slate-600'>Hi, my name is Abhimanyu Warrier and I am a second year computer science student with senior standing at UC Davis!</h1><h1 className=' text-slate-600 font-light text-xs'>Made in React.js</h1></div>
             <div className='mx-auto w-[32vw] mt-[2vh]'>
                 <Link to="/about"><Button variant='contained' sx={{bgcolor: "#083361", borderRadius: 5, height: "7vh", width: "9vw", textTransform: "none"}}>About Me</Button></Link>
             </div>
@@ -52,7 +52,7 @@ const Home = (props) => {
         <div className='h-[40vh] flex items-center justify-around'>
         <Paper sx={{backgroundColor: "#353c4a", borderRadius: 2}} elevation={3} className='mt-[16vh] ml-[5vw] h-[35vh] w-[40vw] p-[2vw] flex flex-col '>
             <h1 className='font-sans text-[4.7vh] mx-auto text-white w-[32vw] font-medium'>Welcome to my website!</h1>
-            <div className='mx-auto w-[32vw] mt-[2vh]'><h1 className=' text-slate-400'>Hi, my name is Abhimanyu Warrier and I am a first year computer science student at UC Davis!</h1><h1 className=' text-slate-500 text-xs font-light'>Made in React.js</h1></div>
+            <div className='mx-auto w-[32vw] mt-[2vh]'><h1 className=' text-slate-400'>Hi, my name is Abhimanyu Warrier and I am a second year computer science student with senior standing at UC Davis!</h1><h1 className=' text-slate-500 text-xs font-light'>Made in React.js</h1></div>
             <div className='mx-auto w-[32vw] mt-[2vh]'>
                 <Link to="/about"><Button variant='contained' sx={{backgroundColor: "#e6ca43", ":hover": {bgcolor: "#f5cd07"}, borderRadius: 5, height: "7vh", width: "9vw", textTransform: "none"}}>About Me</Button></Link>
             </div>

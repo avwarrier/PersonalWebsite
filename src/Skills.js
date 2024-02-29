@@ -17,7 +17,7 @@ const Skills = (props) => {
         </div>
       </div>
       <div className='flex mt-[10vh] h-[40vh] justify-around'>
-        <Paper  elevation={3} className='h-[60vh] w-[30vw] flex flex-col items-center'>
+        <Paper  elevation={3} className='h-[69vh] w-[30vw] flex flex-col items-center'>
           <p className='font-sans text-2xl mt-[3vh] font-normal mb-[2vh]'>Progamming Languages</p>
           <div className='flex justify-center gap-[1.5vw]'>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -37,6 +37,10 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png'/>
                 <h1 className='font-light text-xl'>HTML</h1>
               </div>
+              <div className='flex bg-cyan-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://res.cloudinary.com/practicaldev/image/fetch/s--oauuL7zA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/42f5tyuwirjrc9v7scct.png'/>
+                <h1 className='font-light text-xl'>Kotlin</h1>
+              </div>
             </div>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
             <div className='flex bg-cyan-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
@@ -55,10 +59,15 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png'/>
                 <h1 className='font-light text-xl'>CSS</h1>
               </div>
+              <div className='flex bg-cyan-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png'/>
+                <h1 className='font-light text-xl'>SQL</h1>
+              </div>
+              
             </div>
           </div>
         </Paper>
-        <Paper  elevation={3} className='h-[60vh] w-[30vw] flex flex-col items-center'>
+        <Paper  elevation={3} className='h-[69vh] w-[30vw] flex flex-col items-center'>
           <p className='font-sans text-2xl mt-[3vh] font-normal mb-[2vh]'>Frameworks</p>
           <div className='flex justify-center gap-[1.5vw]'>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -75,8 +84,12 @@ const Skills = (props) => {
                 <h1 className='font-light text-xl'>Express.js</h1>
               </div>
               <div className='flex bg-lime-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
-                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png'/>
-                <h1 className='font-light text-xl'>Google Auth</h1>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc3DiMTwcttkIapZNj9wtG8D1iu50Z3VxGvoM_6FIV5vURhRpfvBkAlX8XPA1y_W6BEQ8&usqp=CAU'/>
+                <h1 className='font-light text-xl'>Django</h1>
+              </div>
+              <div className='flex bg-lime-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png'/>
+                <h1 className='font-light text-xl'>Firebase</h1>
               </div>
             </div>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -96,10 +109,14 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png'/>
                 <h1 className='font-light text-xl'>mongoDB</h1>
               </div>
+              <div className='flex bg-lime-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png'/>
+                <h1 className='font-light text-xl'>Typescript</h1>
+              </div>
             </div>
           </div>
         </Paper>
-        <Paper  elevation={3} className='h-[60vh] w-[30vw] flex flex-col items-center'>
+        <Paper  elevation={3} className='h-[69vh] w-[30vw] flex flex-col items-center'>
           <p className='font-sans text-2xl mt-[3vh] font-normal mb-[2vh]'>Workflow</p>
           <div className='flex justify-center gap-[1.5vw]'>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -119,6 +136,10 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://allinone-academy.com/images/course/SQL_Academy.png'/>
                 <h1 className='font-light text-xl'>MySQL</h1>
               </div>
+              <div className='flex bg-amber-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://miro.medium.com/v2/resize:fit:500/1*AbiX4LwtSNozoyfypcKvEg.png'/>
+                <h1 className='font-light text-xl'>Springboot</h1>
+              </div>
             </div>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
             <div className='flex bg-amber-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
@@ -137,6 +158,10 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png'/>
                 <h1 className='font-light text-xl'>AWS</h1>
               </div>
+              <div className='flex bg-amber-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png'/>
+                <h1 className='font-light text-xl'>PostgreSQL</h1>
+              </div>
             </div>
           </div>
         </Paper>
@@ -152,7 +177,7 @@ const Skills = (props) => {
         </div>
       </div>
       <div className='flex mt-[10vh] h-[40vh] justify-around'>
-        <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[60vh] w-[30vw] flex flex-col items-center'>
+        <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[69vh] w-[30vw] flex flex-col items-center'>
           <p className='font-sans text-2xl mt-[3vh] font-normal mb-[2vh] text-slate-200'>Progamming Languages</p>
           <div className='flex justify-center gap-[1.5vw]'>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -172,6 +197,10 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png'/>
                 <h1 className='font-light text-xl'>HTML</h1>
               </div>
+              <div className='flex bg-cyan-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://res.cloudinary.com/practicaldev/image/fetch/s--oauuL7zA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/42f5tyuwirjrc9v7scct.png'/>
+                <h1 className='font-light text-xl'>Kotlin</h1>
+              </div>
             </div>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
             <div className='flex bg-cyan-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
@@ -190,10 +219,14 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png'/>
                 <h1 className='font-light text-xl'>CSS</h1>
               </div>
+              <div className='flex bg-cyan-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png'/>
+                <h1 className='font-light text-xl'>SQL</h1>
+              </div>
             </div>
           </div>
         </Paper>
-        <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[60vh] w-[30vw] flex flex-col items-center'>
+        <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[69vh] w-[30vw] flex flex-col items-center'>
           <p className='font-sans text-2xl mt-[3vh] font-normal mb-[2vh] text-slate-200'>Frameworks</p>
           <div className='flex justify-center gap-[1.5vw]'>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -210,8 +243,12 @@ const Skills = (props) => {
                 <h1 className='font-light text-xl'>Express.js</h1>
               </div>
               <div className='flex bg-lime-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
-                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png'/>
-                <h1 className='font-light text-xl'>Google Auth</h1>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc3DiMTwcttkIapZNj9wtG8D1iu50Z3VxGvoM_6FIV5vURhRpfvBkAlX8XPA1y_W6BEQ8&usqp=CAU'/>
+                <h1 className='font-light text-xl'>Django</h1>
+              </div>
+              <div className='flex bg-lime-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png'/>
+                <h1 className='font-light text-xl'>Firebase</h1>
               </div>
             </div>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -231,10 +268,14 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png'/>
                 <h1 className='font-light text-xl'>mongoDB</h1>
               </div>
+              <div className='flex bg-lime-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png'/>
+                <h1 className='font-light text-xl'>Typescript</h1>
+              </div>
             </div>
           </div>
         </Paper>
-        <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[60vh] w-[30vw] flex flex-col items-center'>
+        <Paper sx={{bgcolor: "#353c4a"}} elevation={3} className='h-[69vh] w-[30vw] flex flex-col items-center'>
           <p className='font-sans text-2xl mt-[3vh] font-normal mb-[2vh] text-slate-200'>Workflow</p>
           <div className='flex justify-center gap-[1.5vw]'>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
@@ -254,6 +295,10 @@ const Skills = (props) => {
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://allinone-academy.com/images/course/SQL_Academy.png'/>
                 <h1 className='font-light text-xl'>MySQL</h1>
               </div>
+              <div className='flex bg-amber-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://miro.medium.com/v2/resize:fit:500/1*AbiX4LwtSNozoyfypcKvEg.png'/>
+                <h1 className='font-light text-xl'>Springboot</h1>
+              </div>
             </div>
             <div className='w-[13vw] flex flex-col gap-[2vh]'>
             <div className='flex bg-amber-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
@@ -271,6 +316,10 @@ const Skills = (props) => {
               <div className='flex bg-amber-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
                 <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png'/>
                 <h1 className='font-light text-xl'>AWS</h1>
+              </div>
+              <div className='flex bg-amber-200 w-[100%] h-[10vh] justify-center items-center gap-[1vw] shadow-md rounded-md'>
+                <img alt='img' className='w-[2.5vw] drop-shadow-md' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png'/>
+                <h1 className='font-light text-xl'>PostgreSQL</h1>
               </div>
             </div>
           </div>
